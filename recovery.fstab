@@ -14,9 +14,7 @@ auto                      auto      /devices/platform/externdevice*      flags=d
 auto                      vfat      /devices/platform/mt_usb*            flags=display=auto
 /persistent               emmc      /dev/block/by-name/frp               flags=display=persistent
 /nvram                    emmc      /dev/block/by-name/nvram             flags=display=nvram
-/proinfo                  emmc      /dev/block/by-name/proinfo           flags=display=proinfo
-/bootloader               emmc      /dev/block/by-name/lk                flags=display=bootloader
-/bootloader2              emmc      /dev/block/by-name/lk2               flags=display=bootloader2
+/proinfo                  emmc      /dev/block/by-name/proinfo           flags=display=proinfo               flags=display=bootloader2
 /misc                     emmc      /dev/block/by-name/misc              flags=display=misc
 /para                     emmc      /dev/block/by-name/para              flags=display=para
 /boot                     emmc      /dev/block/by-name/boot              flags=display=boot;slotselect
@@ -24,7 +22,6 @@ auto                      vfat      /devices/platform/mt_usb*            flags=d
 /vbmeta_system            emmc      /dev/block/by-name/vbmeta_system     flags=display=vbmeta_system;slotselect
 /logo                     emmc      /dev/block/by-name/logo              flags=display=logo
 /expdb                    emmc      /dev/block/by-name/expdb             flags=display=expdb
-/seccfg                   emmc      /dev/block/by-name/seccfg            flags=display=seccfg
 /tee1                     emmc      /dev/block/by-name/tee1              flags=display=tee1
 /tee2                     emmc      /dev/block/by-name/tee2              flags=display=tee2
 /scp1                     emmc      /dev/block/by-name/scp1              flags=display=scp1
@@ -36,7 +33,7 @@ auto                      vfat      /devices/platform/mt_usb*            flags=d
 /gz1                      emmc      /dev/block/by-name/gz1               flags=display=gz1
 /gz2                      emmc      /dev/block/by-name/gz2               flags=display=gz2
 /spmfw                    emmc      /dev/block/by-name/spmfw             flags=display=spmfw
-/boot_para                emmc      /dev/block/by-name/boot_para         flags=display=boot_para
+/misc                     emmc      /dev/block/by-name/misc              flags=display=misc
 /dtbo                     emmc      /dev/block/by-name/dtbo              flags=display=dtbo
 /otp                      emmc      /dev/block/by-name/otp               flags=display=otp
 /vbmeta                   emmc      /dev/block/by-name/vbmeta            flags=display=vbmeta
