@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_LG6n.mk
+    $(LOCAL_DIR)/twrp_lg6n.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_LG6n-user \
-    twrp_LG6n-userdebug \
-    twrp_LG6n-eng
+    twrp_lg6n-user \
+    twrp_lg6n-userdebug \
+    twrp_lg6n-eng
