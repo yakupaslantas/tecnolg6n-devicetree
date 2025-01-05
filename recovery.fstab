@@ -33,7 +33,7 @@ auto                      vfat      /devices/platform/mt_usb*            flags=d
 /gz1                      emmc      /dev/block/by-name/gz1               flags=display=gz1
 /gz2                      emmc      /dev/block/by-name/gz2               flags=display=gz2
 /spmfw                    emmc      /dev/block/by-name/spmfw             flags=display=spmfw
-/misc                     emmc      /dev/block/by-name/misc              flags=display=misc
+/misc                     emmc      /dev/block/by-name/boot_para         flags=display=boot_para
 /dtbo                     emmc      /dev/block/by-name/dtbo              flags=display=dtbo
 /otp                      emmc      /dev/block/by-name/otp               flags=display=otp
 /vbmeta                   emmc      /dev/block/by-name/vbmeta            flags=display=vbmeta
