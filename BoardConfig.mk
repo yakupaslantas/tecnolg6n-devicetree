@@ -22,6 +22,13 @@ AB_OTA_PARTITIONS += \
     system
 BOARD_USES_RECOVERY_AS_BOOT := true
 
+
+# Custom
+TW_INCLUDE_FASTBOOTD := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
+
+
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
