@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-LG6n
+DEVICE_PATH := device/tecno/lg6n
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -41,7 +41,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := TECNO-LG6n
+TARGET_BOOTLOADER_BOARD_NAME := TECNO-lg6n
 TARGET_NO_BOOTLOADER := true
 
 # Display
