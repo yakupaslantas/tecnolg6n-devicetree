@@ -14,7 +14,7 @@ auto                      auto      /devices/platform/externdevice*      flags=d
 auto                      vfat      /devices/platform/mt_usb*            flags=display=auto
 /persistent               emmc      /dev/block/by-name/frp               flags=display=persistent
 /nvram                    emmc      /dev/block/by-name/nvram             flags=display=nvram
-/proinfo                  emmc      /dev/block/by-name/proinfo           flags=display=proinfo               flags=display=bootloader2
+/proinfo                  emmc      /dev/block/by-name/proinfo           flags=display=proinfo              
 /misc                     emmc      /dev/block/by-name/misc              flags=display=misc
 /para                     emmc      /dev/block/by-name/para              flags=display=para
 /boot                     emmc      /dev/block/by-name/boot              flags=display=boot;slotselect
